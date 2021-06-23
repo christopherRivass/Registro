@@ -7,4 +7,9 @@ class registro1{
 		this.Jornada=Jornada;
 		this.info=`${DNI,Nombre,Edad,Curso,Jornada}`
 	}
+		
 }
+
+const btnset=document.querySelector('.enviar');
+
+addEventListener(click, listener)
