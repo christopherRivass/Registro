@@ -1,13 +1,8 @@
 <?php
-$server='localhost';
-$user='chris';
-$password='Tsukujomy[19]';
-$bd='Alumnos';
+include 'conct.php';
+$consulRegistros=("select * from datAlumnos");
+$respuestaReg=mysqli_query($conn,$consulRegistros);
+$totalrows=mysqli_num_rows($respuestaReg);
 
-$conn = mysqli_connect($server, $user, $password, $bd);
-if(!$conn){
-    echo 'Parece que fallo tu base de datos';
-}else{
-    echo 'Todo bien';
-}
+echo "El numero de resgistros es:$totalrows"
 ?>

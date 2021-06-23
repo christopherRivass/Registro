@@ -12,4 +12,7 @@ class registro1{
 
 const btnset=document.querySelector('.enviar');
 
+function usr(){
+}
+
 addEventListener(click, listener)
