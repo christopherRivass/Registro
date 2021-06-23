@@ -5,5 +5,6 @@ class registro1{
 		this.Edad=Edad;
 		this.Curso=Curso;
 		this.Jornada=Jornada;
+		this.info=`${DNI,Nombre,Edad,Curso,Jornada}`
 	}
 }
