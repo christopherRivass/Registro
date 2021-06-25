@@ -4,5 +4,10 @@ $consulRegistros=("select * from datAlumnos");
 $respuestaReg=mysqli_query($conn,$consulRegistros);
 $totalrows=mysqli_num_rows($respuestaReg);
 
-echo "El numero de resgistros es:$totalrows"
+$cupos=30;
+if($_POST["form"]){
+    if($_POST['setDat']==true){
+
+    }
+}
 ?>
