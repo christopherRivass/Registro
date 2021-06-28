@@ -16,10 +16,10 @@
 				<input type="number" name="years" placeholder="7 year's old">
 				<h4>What's your grade calssroom</h4>
 				<select name="curso" size="1">
-					<option>Ciencias y Humanidades</option>
-					<option>Finanzas</option>
-					<option>Informatica</option>
-					<option>Robotica</option>
+					<option>BCH</option>
+					<option>BTPCF</option>
+					<option>BTPI</option>
+					<option>BTPR</option>
 				</select>
 				<h4> Your calss day</h4>
 				<input type="text" name="day" placeholder="morning">

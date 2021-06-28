@@ -5,7 +5,6 @@ $servidor='localhost';
 $baseDedatos='Alumnos';
 $conn=mysqli_connect($servidor,$user,$contra,$baseDedatos);
 // Sentencia SQL
-$consulta = "SELECT * FROM datAlumnos;";
-
+if (!$conn){echo 'fallo';}else{echo 'de maravilla';}
 //Asi se hace una consulta para mysql
 //$resultado = mysqli_query($conn,$consulta);
