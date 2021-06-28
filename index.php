@@ -7,7 +7,7 @@
 
 	<body>
 		<div>
-			<form  action="save/saveInfo.php" method="POST">
+			<form  name="saveInfo" action="save/saveInfo.php" method="POST">
 				<h4>Put your DNI</h4>
 				<input type="text" name="DNI" placeholder="0000-1996-1548">
 				<h4>Tell me your name</h4>

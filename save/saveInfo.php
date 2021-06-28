@@ -1,13 +1,12 @@
 <?php
-include 'conct.php';
-require 'classPHP/person.php';
-$consulRegistros=("select * from datAlumnos");
-$respuestaReg=mysqli_query($conn,$consulRegistros);
-$totalrows=mysqli_num_rows($respuestaReg);
-
-$cupos=30;
-if(isset($_POST["saveInfo"])){
-    echo "saving...";
+	include 'conct.php';
+	include 'classPHP/person.php';
+if(isset($_POST['saveInfo'])){
+	echo 'saving...';
+	$DNI=$_POST['DNI'];
+	$itName=$_POST['itName'];
+	$years=$_POST['years'];
+	$curso=$_POST['curso'];
+	$day=$_POST['day'];
 }
-
 ?>
